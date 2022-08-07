@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+    </style>
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <title>Shoes</title>
+</head>
+
+<body>
+    <header>
+        <img src="./public/img/logo-color.png" alt="Shoes">
+        <nav>
+            <ul>
+                <li><a href="#">Todos os Produtos</a></li>
+                <li><a href="#">Coleções</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Faça parte do nosso time</h2>
+            <form action="lugar para onde vai" method="get">
+                <label for="nome">
+                    <span>Nome:</span>
+                    <input id="nome" placeholder="Digite seu nome aqui" name="nomeDoCandidato" type="text">
+                </label>
+
+                <input type="hidden" name="visitoupagina" value="1">
+
+                <label>
+                    <span>E-mail:</span>
+                    <input id="email" placeholder="E-mail" name="email" type="email">
+                </label>
+
+                <label>
+                    <span>Telefone:</span>
+                    <input id="telefone" placeholder="Telefone" name="telefone" type="tel">
+                </label>
+
+                <label>
+                    <span>Endereço:</span>
+                    <input id="endereco" placeholder="Endereço" name="email" type="email">
+                </label>
+
+                <label>
+                    <span>Departamento:</span>
+                    <select name="departamento" id="departamento">
+                        <option selected disabled>Selecione uma opção</option>
+                        <option value="prog">Programação</option>
+                        <optgroup label="Negócios">
+                            <option value="ved">Vendas</option>
+                            <option value="mkt">Marketing</option>
+                        </optgroup>
+                    </select>
+                </label>
+            
+                <div>
+                    <h3>Disponibilidade:</h3>
+                    <label>
+                        <input type="checkbox" name="integral" id="integral">
+                        <span>Integral(8h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="meioperiodo" id="meioperiodo">
+                        <span>Meio Período (4h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="freelancer" id="freelancer">
+                        <span>Freelancer</span>
+                    </label>
+                </div>
+
+                <button type="submit">ENVIAR</button>
+            </form>
+        </section>
+        <section>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore itaque ipsum necessitatibus
+                magnam voluptates molestias rerum commodi, praesentium voluptas a odio laborum exercitationem maxime at
+                veniam totam nobis. Natus.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore itaque ipsum necessitatibus
+                magnam voluptates molestias rerum commodi, praesentium voluptas a odio laborum exercitationem maxime at
+                veniam totam nobis. Natus.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore itaque ipsum necessitatibus
+                magnam voluptates molestias rerum commodi, praesentium voluptas a odio laborum exercitationem maxime at
+                veniam totam nobis. Natus.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="Contatos">
+            <img src="./public/img/logo-white.png" alt="Shoes">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae, aspernatur porro sapiente
+                quasi numquam distinctio libero corporis</p>
+        </section>
+        <section id="Links">
+            <article class="categorias">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#">Sandálias</a></li>
+                    <li><a href="#">Botas</a></li>
+                    <li><a href="#">Tênis</a></li>
+                    <li><a href="#">Oxford</a></li>
+                    <li><a href="#">Coturnos</a></li>
+                </ul>
+            </article>
+            <article class="institucional">
+                <h3>Institucional</h3>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Rastreamento de Pedidos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>

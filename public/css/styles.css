@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 1px 20px black;
+    margin-bottom: 20px;
 }
 
 header img {
@@ -98,6 +99,7 @@ header li a:hover {
 #produto-destaque {
     display: flex;
     justify-content: space-between;
+    padding: 12%;
 }
 
 #produto-destaque div {
@@ -125,3 +127,93 @@ header li a:hover {
     font-size: 2rem;
 
 }   
+
+main {
+    display: flex;
+    column-gap: 10px;
+}
+
+main section {
+    width: 50%;
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-areas:
+      "contatos categorias institucional";
+      grid-auto-rows: 300px;
+      justify-content: space-evenly;
+      align-items: center;
+    background: #C21856;
+    padding: 0px 60px 0px 60px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  form label span {
+    font-size: .8rem;
+  }
+
+
+  form label input[type=checkbox]{
+    width: auto;
+  }
+
+  form label input, form label select{
+    width: 100%;
+  }
+
+  form label input:focus {
+    background-color: #666;
+  }
+
+#Links {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+  .contatos{
+    grid-area: contatos;
+  }
+  
+  .categorias{
+    grid-area: categorias;
+  }
+  
+  .institucional{
+    grid-area: institucional;
+  }
+
+  footer h3 {
+    margin: 0;
+  }
+
+  footer ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer img{
+    width: 150px;
+  }
+  footer p {
+    color: #fff;
+  }
+  
+  footer article ul li a {
+    color: #fff;
+  }
+  
+  footer ul li {
+    list-style: none;
+  }
+  footer li a{
+    text-decoration: none;
+  }
