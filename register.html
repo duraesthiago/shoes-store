@@ -24,6 +24,13 @@
         </nav>
     </header>
 
+    <section class="destaque">
+        <article>
+            Só mês de aniversário frete gratis para todo Brasil
+        </article>
+        <span>x</span> 
+    </section>
+
     <main class="container">
         <section>
             <h2>Faça parte do nosso time</h2>
@@ -61,23 +68,45 @@
                         </optgroup>
                     </select>
                 </label>
-            
+
                 <div>
                     <h3>Disponibilidade:</h3>
                     <label>
-                        <input type="checkbox" name="integral" id="integral">
+                        <input type="checkbox" name="integral" id="integral" checked>
+                        <i></i>
                         <span>Integral(8h)</span>
                     </label>
                     <label>
                         <input type="checkbox" name="meioperiodo" id="meioperiodo">
+                        <i></i>
                         <span>Meio Período (4h)</span>
                     </label>
                     <label>
                         <input type="checkbox" name="freelancer" id="freelancer">
+                        <i></i>
                         <span>Freelancer</span>
                     </label>
                 </div>
 
+                <div>
+                    <h3>Forma preferencial de contato</h3>
+                    <label>
+                        <input type="radio" name="formaDeContato" value="email" checked>
+                        <span>Email</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="formaDeContato" value="telefone">
+                        <span>Telefone</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="formaDeContato" value="whatsapp">
+                        <span>Whatsapp</span>
+                    </label>
+                    <label>
+                        <input type="file" name="arquivoCurriculo">
+                        <span>Aquivo pdf com seu currículo</span>
+                    </label>
+                </div>
                 <button type="submit">ENVIAR</button>
             </form>
         </section>
